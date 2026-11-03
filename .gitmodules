@@ -1,3 +1,6 @@
 [submodule "elan32_serial"]
 	path = elan32_serial
 	url = https://github.com/jfievet/elan32_serial.git
+[submodule "riscv_soc_shell"]
+	path = riscv_soc_shell
+	url = https://github.com/jfievet/riscv_soc_shell.git
