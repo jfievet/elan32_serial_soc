@@ -1,0 +1,1 @@
+# elan32_serial_soc
