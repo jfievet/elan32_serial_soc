@@ -122,7 +122,7 @@ begin
             async_reset_active => '1',
             sync_reset_active  => '0',
             reset_pc           => start_address,
-            rf_organization    => "b"
+            rf_organization    => "a"
         )
         port map (
             -- Clock and reset
