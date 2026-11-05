@@ -190,7 +190,8 @@ nco_pro : process (clk_main, rst_main)
             ASYNC_RESET_ACTIVE  => ASYNC_RESET_ACTIVE,
             SYNC_RESET_ACTIVE   => SYNC_RESET_ACTIVE,
             G_SYS_FREQ          => clock_frequency,
-            G_BAUDRATE          => uart_baudrate
+            G_BAUDRATE          => uart_baudrate,
+            G_AXI_SOC_SUBSYSTEM_LIGHTWEIGHT => true
         )
         port map (
             -- Clock and reset

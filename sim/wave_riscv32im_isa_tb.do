@@ -16,16 +16,16 @@ add wave -noupdate -divider {picorv32_axi_inst}
 add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/riscv_wrapper_inst/u_elan_core/*
 
 add wave -noupdate -divider {axi_soc_subsystem_inst}
-add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/axi_soc_subsystem_inst/*
+add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/gen_axi_soc_full/axi_soc_subsystem_inst/*
 
 add wave -noupdate -divider {u_axi_lite_interconnect}
-add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/axi_soc_subsystem_inst/u_axi_lite_interconnect/*
+add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/gen_axi_soc_full/axi_soc_subsystem_inst/u_axi_lite_interconnect/*
 
 add wave -noupdate -divider {axi_interconnect_single_first_inst}
-add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/axi_soc_subsystem_inst/u_axi_lite_interconnect/axi_interconnect_single_first_inst/*
+add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/gen_axi_soc_full/axi_soc_subsystem_inst/u_axi_lite_interconnect/axi_interconnect_single_first_inst/*
 
 add wave -noupdate -divider {u_axi_uart}
-add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/axi_soc_subsystem_inst/u_axi_uart/*
+add wave -position insertpoint sim:/riscv32im_isa_tb/soc_inst/gen_axi_soc_full/axi_soc_subsystem_inst/u_axi_uart/*
 
 
 config wave -signalnamewidth 1
