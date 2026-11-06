@@ -14,6 +14,7 @@ LIB = VU.add_library("lib")
 
 LIB.add_source_files(ROOT / "elan32_serial" / "elans_alu.vhd")
 LIB.add_source_files(ROOT / "elan32_serial" / "elans_axi_master.vhd")
+LIB.add_source_files(ROOT / "elan32_serial" / "elans_inter.vhd")
 LIB.add_source_files(ROOT / "elan32_serial" / "elans_core.vhd")
 LIB.add_source_files(ROOT / "elan32_serial" / "elans_register_ram.vhd")
 LIB.add_source_files(ROOT / "elan32_serial" / "elans_register_file.vhd")

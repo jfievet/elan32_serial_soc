@@ -130,6 +130,7 @@ set_global_assignment -name VHDL_FILE ../../../riscv_soc_shell/src/rams_sp_wf_pk
 set_global_assignment -name VHDL_FILE ../../../riscv_soc_shell/src/axi_soc_subsystem.vhd
 set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_alu.vhd
 set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_axi_master.vhd
+set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_inter.vhd
 set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_core.vhd
 set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_register_ram.vhd
 set_global_assignment -name VHDL_FILE ../../../elan32_serial/elans_register_file.vhd
